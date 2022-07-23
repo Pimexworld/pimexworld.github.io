@@ -20,6 +20,12 @@ body{
     background-color: #fff;
 }
 
+#nav-bar a{
+    color: #000;
+    margin-left: 10px;
+    
+}
+
 
 .navbar{
     background-image: #f8f9fa;
@@ -28,19 +34,22 @@ body{
 
 .navbar-nav{
     margin-left: auto;
+    
 }
 
 .navbar-brand img{
     height: 40px;
-    padding-left: 20px;
-    padding-left: 80px;
+    padding-left: 5px;
+   
 }
+
 
 .navbar-nav li{
     padding: 0 10px;
-    
-    
+  
 }
+
+
 
 
 .navbar-nav li a{
@@ -48,10 +57,7 @@ body{
     font-weight: 600;  
 }
 
-.fa-bars{
-    color: #fff;
-    font-size: 30px;
-} 
+
 
 .navbar-toggler{
     outline: none;
@@ -91,7 +97,10 @@ body{
 
 .slide-left{
     animation: slideleft 2s linear forwards;
+    font-size: 30px;
 }
+
+
 
 @keyframes slideleft{
     0%{
@@ -150,13 +159,17 @@ body{
 
 .premium{
     font-size: 20px;
-     font-weight: 600;
-     margin: 100px 0;
+    padding: 10px;
+    text-align: center;
+    
 
     
 }
 
 /*====boxes===*/
+
+
+
 
 .leap{
     color: #0188df;
@@ -191,28 +204,18 @@ body{
     display: inline-block;
     font-size: 12px;
 }
-.title::before{
-    content: '';
-    background: #0188df;
-    height: 5px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(63px);
-    
-}
+
 
 .title::after{
     content: '';
     background: #0188df;
-    height: 10px;
-    width: 50px; 
+    height: 2px;
+    width: 100px; 
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     display: block;
-    transform: translateY(8px);
+    transform: translateY(7px);
 }
 
 .testimonials .fa{
